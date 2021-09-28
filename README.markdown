@@ -62,6 +62,7 @@ CrystalOrb currently uses the following unstable features:
 ```rust
 #![feature(const_fn_floating_point_arithmetic)]
 #![feature(map_first_last)]
-#![feature(const_generics)]
+#![feature(generic_const_exprs)]
+#![feature(adt_const_params)]
 #![feature(generic_associated_types)]
 ```
